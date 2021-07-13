@@ -1,17 +1,13 @@
 <template>
   <div id="app">
-    <SuperHeroList/>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import SuperHeroList from './components/SuperHeroList.vue'
 
 export default {
-  name: 'App',
-  components: {
-    SuperHeroList
-  }
+  name: 'App'
 }
 </script>
 
