@@ -1,20 +1,12 @@
 <template>
   <div class="wrapper">
-    <div>This is a test {{ $route.params.name }}</div>
+    <div>Superhero: {{ $route.params.name }}</div>
   </div>
 </template>
 
 <script>
-import { mapState } from 'vuex'
-
 export default {
-  name: 'SuperHero',
-  mounted () {
-    this.$store.dispatch('getSuperheros')
-  },
-  computed: {
-    ...mapState(['superheros'])
-  }
+  name: 'SuperHero'
 }
 </script>
 
