@@ -5,7 +5,7 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-8">
         <div v-for="(superhero, index) in superheros" :key='index'>
           <router-link
-            :to="`/superhero/${superhero.name}`"
+            :to="`/superhero/${superhero.id}`"
             class="flex flex-col justify-center rounded-lg w-60 font-mono text-xl transform hover:-translate-y-2 cursor-pointer"
           >
             {{superhero.name}}

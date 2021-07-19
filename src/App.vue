@@ -19,5 +19,6 @@ export default {
   text-align: center;
   color: #fff;
   background-image: linear-gradient(to right, #8B0001 , #C34632);
+  min-height: 100vh;
 }
 </style>

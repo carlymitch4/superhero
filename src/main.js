@@ -10,7 +10,7 @@ Vue.use(VueRouter)
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
-  { path: '/superhero/:name', name: 'superhero', component: Superhero }
+  { path: '/superhero/:id', name: 'superhero', component: Superhero }
 ]
 
 const router = new VueRouter({
